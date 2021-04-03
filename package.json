@@ -1,4 +1,5 @@
 {
+  "homepage": "https://anggakswr.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +43,7 @@
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.4",
     "autoprefixer": "^9",
+    "gh-pages": "^3.1.0",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
