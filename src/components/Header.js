@@ -7,7 +7,7 @@ const Header = () => {
     <div className="md:flex justify-center items-center">
       {/* photo */}
       <img
-        src="/img/angga.jpeg"
+        src="https://anggakswr.github.io/portfolio/img/angga.jpeg"
         alt="anggas-profile"
         className="block m-auto"
       />
