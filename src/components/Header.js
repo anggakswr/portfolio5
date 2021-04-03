@@ -25,20 +25,33 @@ const Header = () => {
         </p>
 
         {/* social media icons */}
-        <div className="py-8 flex">
-          <IconContext.Provider
-            value={{
-              className: "mr-2 text-white hover:text-gray-300",
-              size: "2rem",
-            }}
-          >
-            <a href="https://www.instagram.com/anggakswr/">
-              <FaInstagram />
-            </a>
-            <a href="https://github.com/anggakswr/">
-              <FaGithub />
-            </a>
-          </IconContext.Provider>
+        <div className="py-8">
+          <div className="flex">
+            <IconContext.Provider
+              value={{
+                className: "mr-2",
+                size: "2rem",
+              }}
+            >
+              <a
+                href="https://www.instagram.com/anggakswr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://github.com/anggakswr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </IconContext.Provider>
+          </div>
+
+          <p className="mt-2">(+62) 895 0734 0705</p>
+          <p className="mt-2">kamiswara98@gmail.com</p>
         </div>
       </div>
     </div>

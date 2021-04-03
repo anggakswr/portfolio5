@@ -5,3 +5,7 @@
 body {
   @apply bg-black text-gray-300 md:py-8;
 }
+
+a {
+  @apply text-white hover:text-gray-300;
+}
