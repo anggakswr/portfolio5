@@ -9,7 +9,7 @@ const Header = () => {
       <img
         src="https://anggakswr.github.io/portfolio/img/angga.jpeg"
         alt="anggas-profile"
-        className="block m-auto"
+        className="block w-full"
       />
 
       {/* text */}
@@ -19,9 +19,9 @@ const Header = () => {
 
         {/* description */}
         <p>
-          Hello, you can call me Angga. I love learning programming, playing
-          games, jogging and playing table tennis. I am currently working as a
-          front-end developer.
+          Hello, you can call me Angga. I love to learn programming, exercising,
+          watching movies, and listening to the music. I am currently working as
+          a front-end developer at iCreativeLabs.
         </p>
 
         {/* social media icons */}
