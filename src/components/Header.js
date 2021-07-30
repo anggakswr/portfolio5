@@ -19,7 +19,7 @@ const Header = () => {
 
         {/* description */}
         <p>
-          Hello, I'm a front-end developer who likes to create my own world
+          Hello, I'm a front-end developer who loves to create my own world
           through websites.
         </p>
 
