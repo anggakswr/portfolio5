@@ -7,7 +7,7 @@ const Header = () => {
     <div className="md:flex justify-center items-center">
       {/* photo */}
       <img
-        src="https://anggakswr.github.io/img/angga.jpeg"
+        src="https://anggakswr.github.io/img/angga.jpg"
         alt="anggas-profile"
         className="block w-full"
       />
@@ -19,9 +19,8 @@ const Header = () => {
 
         {/* description */}
         <p>
-          Hello, you can call me Angga. I love to learn programming, exercising,
-          watching movies, and listening to the music. I am currently working as
-          a front-end developer at iCreativeLabs.
+          Hello, I'm a front-end developer who likes to create my own world
+          through websites.
         </p>
 
         {/* social media icons */}
