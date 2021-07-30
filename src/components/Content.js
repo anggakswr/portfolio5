@@ -6,13 +6,13 @@ import { IconContext } from "react-icons";
 const Content = () => {
   return (
     <div className="py-32">
-      <h2 className="text-3xl py-2 mb-5">Recent Works</h2>
+      <h2 className="text-3xl py-2 px-8 mb-5">Recent Works</h2>
 
       <ul className="ml-5 list-disc">
         <li className="p-5 relative">
           <div
             className="w-0.5 h-full absolute bg-white top-14 -left-3"
-            style={{ height: "96.9%" }}
+            style={{ height: "90%" }}
           />
 
           <h2 className="text-3xl text-white mb-4 block">
@@ -47,7 +47,7 @@ const Content = () => {
         <li className="p-5 relative">
           <div
             className="w-0.5 h-full absolute bg-white top-14 -left-3"
-            style={{ height: "96.9%" }}
+            style={{ height: "90%" }}
           />
 
           <a
