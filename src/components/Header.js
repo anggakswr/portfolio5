@@ -1,16 +1,12 @@
 import React from "react";
-import { FaInstagram, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaYoutube } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 const Header = () => {
   return (
     <div className="md:flex justify-center items-center">
       {/* photo */}
-      <img
-        src="https://anggakswr.github.io/img/angga.jpg"
-        alt="anggas-profile"
-        className="block w-full"
-      />
+      <img src="https://anggakswr.github.io/img/angga.jpg" alt="anggas-profile" className="block w-full" />
 
       {/* text */}
       <div className="px-8">
@@ -18,10 +14,7 @@ const Header = () => {
         <h1 className="text-5xl py-8 text-white">Kamiswara Angga Wijaya</h1>
 
         {/* description */}
-        <p>
-          Hello, I'm a front-end developer who loves to create my own world
-          through websites.
-        </p>
+        <p>Hello, I'm a front-end developer who loves to create my own world through programming.</p>
 
         {/* social media icons */}
         <div className="py-8">
@@ -32,19 +25,16 @@ const Header = () => {
                 size: "2rem",
               }}
             >
-              <a
-                href="https://www.instagram.com/anggakswr/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://www.instagram.com/anggakswr/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
-              <a
-                href="https://github.com/anggakswr/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+
+              <a href="https://github.com/anggakswr/" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
+              </a>
+
+              <a href="https://www.youtube.com/channel/UCNZNdoVIHcOxZ-j2tdE28RA" target="_blank" rel="noopener noreferrer">
+                <FaYoutube />
               </a>
             </IconContext.Provider>
           </div>
