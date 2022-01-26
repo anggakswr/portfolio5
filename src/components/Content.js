@@ -130,7 +130,7 @@ const Content = () => {
             Lecturer Management Information System
           </a>
 
-          <img src="https://anggakswr.github.io/old-portfolio/img/projects/simdos.png" alt="nuxtjs-pwa-app" />
+          <img src="https://anggakswr.github.io/img/recent-works/simdos.png" alt="nuxtjs-pwa-app" />
 
           <div className="flex gap-x-2 justify-center items-center mt-5">
             <IconContext.Provider
