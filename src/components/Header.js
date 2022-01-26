@@ -4,17 +4,24 @@ import { IconContext } from "react-icons";
 
 const Header = () => {
   return (
-    <div className="md:flex justify-center items-center">
+    <div className="md:flex justify-center">
       {/* photo */}
-      <img src="https://anggakswr.github.io/img/angga.jpg" alt="anggas-profile" className="block w-full" />
+      <div>
+        <img src="https://anggakswr.github.io/img/angga.jpg" alt="anggas-profile" className="block w-full" />
+      </div>
 
       {/* text */}
       <div className="px-8">
         {/* name */}
-        <h1 className="text-5xl py-8 text-white">Kamiswara Angga Wijaya</h1>
+        <h1 className="text-5xl pb-8 text-white">Kamiswara Angga Wijaya</h1>
 
         {/* description */}
-        <p>Hello, I'm a front-end developer who loves to create my own world through programming.</p>
+        <p>
+          Hello, I'm a front-end web developer who loves to create my own world through programming.
+          <br />
+          <br />
+          I've been in this industry for more than 1 year. I love to create modular code and easy to maintain code, and documented in the form of comments that makes it easier for other teams to manage.
+        </p>
 
         {/* social media icons */}
         <div className="py-8">
