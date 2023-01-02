@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaGithub, FaYoutube } from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 import { IconContext } from "react-icons";
 
 const Header = () => {
@@ -7,7 +8,11 @@ const Header = () => {
     <div className="md:flex justify-center">
       {/* photo */}
       <div>
-        <img src="https://anggakswr.github.io/img/angga.jpg" alt="anggas-profile" className="block w-full" />
+        <img
+          src="https://anggakswr.github.io/img/angga.jpg"
+          alt="anggas-profile"
+          className="block w-full"
+        />
       </div>
 
       {/* text */}
@@ -17,10 +22,8 @@ const Header = () => {
 
         {/* description */}
         <p>
-          Hello, I'm a front-end web developer who loves to create my own world through programming.
-          <br />
-          <br />
-          I've been in this industry for more than 1 year. I love to create modular code and easy to maintain code, and documented in the form of comments that makes it easier for other teams to manage.
+          Hello, I'm a front-end web developer who loves to create my own world
+          through programming.
         </p>
 
         {/* social media icons */}
@@ -32,16 +35,36 @@ const Header = () => {
                 size: "2rem",
               }}
             >
-              <a href="https://www.instagram.com/anggakswr/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.instagram.com/anggakswr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaInstagram />
               </a>
 
-              <a href="https://github.com/anggakswr/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/anggakswr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaGithub />
               </a>
 
-              <a href="https://www.youtube.com/channel/UCNZNdoVIHcOxZ-j2tdE28RA" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.youtube.com/channel/UCNZNdoVIHcOxZ-j2tdE28RA"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaYoutube />
+              </a>
+
+              <a
+                href="https://tiktok.com/@anggakswr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiTiktok size={30} />
               </a>
             </IconContext.Provider>
           </div>
