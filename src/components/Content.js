@@ -21,8 +21,8 @@ const Content = () => {
 const projects = [
   {
     title: "Parenthood Institute",
-    img: "https://anggakswr.github.io/img/recent-works/cdic.jpg",
-    desc: "Webview app. Some events that PrimaKu have related with child health education.",
+    img: "https://anggakswr.github.io/img/recent-works/parenthood.jpg",
+    desc: "Webview app. Some events that PrimaKu have, related with child health education.",
   },
   {
     title: "CDIC",
